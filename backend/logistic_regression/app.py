@@ -44,7 +44,7 @@ def home():
 # -----------------------------
 # Prediction route
 # -----------------------------
-@app.route("/predict", methods=["POST"])
+@app.route("/predict-logistic", methods=["POST"])
 def predict():
     data = request.get_json()
 
